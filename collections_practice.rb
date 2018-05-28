@@ -47,5 +47,5 @@ def add_s(array)
     string = string + "s" unless index == 1
     result << string
   end
-  result  
+  result
 end
