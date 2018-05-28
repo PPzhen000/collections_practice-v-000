@@ -36,3 +36,11 @@ end
 def find_a(array)
   array.select {|string| string.start_with?("a")}
 end
+
+def sum_array(array)
+  array.inject { |sum, n| sum + n }
+end 
+
+def add_s(array)
+
+end 
